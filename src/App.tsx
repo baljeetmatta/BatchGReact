@@ -52,13 +52,26 @@ import './App.css'
 // export default App
 
 import Greet,{Test} from './Greet';
+import Greeting from './Greeting';
+import Types from './Types';
+//import Types from './Types';
+import results from "./data.json";
+
 function App()
 {
+  let data=10;
+  
   return (
     <>
     Welcome to React
-    <Greet/>
-    <Test/>
+    {/* <Types/> */}
+    {/* <Greet/>
+    <Test/> */}
+     <Greeting name="CodeQuotient" years={data} code={results[0]}>
+      <Types/>
+      </Greeting>
+    {/* <Greeting name="Chitkara"/>  */}
+
 
     </>
   )
