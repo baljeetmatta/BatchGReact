@@ -1,5 +1,7 @@
 
 import './App.css'
+import Button from './Button';
+import Controls from './Controls';
 // import namesList from './data.json';
 
 // function App() {
@@ -57,22 +59,52 @@ import Types from './Types';
 //import Types from './Types';
 import results from "./data.json";
 
+// function App()
+// {
+//   let data=10;
+  
+//   return (
+//     <>
+//     Welcome to React
+//     {/* <Types/> */}
+//     {/* <Greet/>
+//     <Test/> */}
+//      {/* <Greeting name="CodeQuotient" years={data} code={results[0]}>
+//       <Types/>
+//       </Greeting> */}
+//     {/* <Greeting name="Chitkara"/>  */}
+
+// <Button value="Send"/>
+// <Button value="Click"/>
+
+//     </>
+//   )
+// }
+// const clickHandlerSend=(e:React.MouseEvent)=>{
+//   let target=e.target as HTMLButtonElement;
+
+//   alert(target.innerText+ " Button Clicked");
+// }
+// const clickHandlerClick=(e:React.MouseEvent)=>{
+//   let target=e.target as HTMLButtonElement;
+//   alert(target.innerText+ " button clicked")
+
+// }
+// function App()
+// {
+//   return (
+//     <>
+//     <Button value="Send data" click={clickHandlerSend}/>
+//     <Button value="Click" click={clickHandlerClick}/>
+//     </>
+//   )
+// }
+
 function App()
 {
-  let data=10;
-  
   return (
     <>
-    Welcome to React
-    {/* <Types/> */}
-    {/* <Greet/>
-    <Test/> */}
-     <Greeting name="CodeQuotient" years={data} code={results[0]}>
-      <Types/>
-      </Greeting>
-    {/* <Greeting name="Chitkara"/>  */}
-
-
+    <Controls/>
     </>
   )
 }
