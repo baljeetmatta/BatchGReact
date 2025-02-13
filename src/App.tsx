@@ -56,6 +56,7 @@ import Controls from './Controls';
 
 import Greet,{Test} from './Greet';
 import Greeting from './Greeting';
+import Login from './Login';
 import Types from './Types';
 //import Types from './Types';
 import results from "./data.json";
@@ -106,7 +107,8 @@ function App()
   return (
     <>
     {/* <Controls/> */}
-    <Banner/>
+    {/* <Banner/> */}
+    <Login/>
     </>
   )
 }
