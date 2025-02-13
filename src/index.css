@@ -66,4 +66,9 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-@import "tailwindcss"
+@import "tailwindcss";
+@layer utilities{
+  .container{
+    @apply pl-12 pr-12 mx-auto
+  }
+}

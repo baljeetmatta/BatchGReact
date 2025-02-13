@@ -1,5 +1,6 @@
 
-import './App.css'
+//import './App.css'
+import Banner from './Banner';
 import Button from './Button';
 import Controls from './Controls';
 // import namesList from './data.json';
@@ -104,7 +105,8 @@ function App()
 {
   return (
     <>
-    <Controls/>
+    {/* <Controls/> */}
+    <Banner/>
     </>
   )
 }

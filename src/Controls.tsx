@@ -23,3 +23,12 @@ const clickHandler=()=>{
     )
 }
 export default Controls;
+//npm install tailwindcss@3  
+//npx tailwindcss@3 init  
+//npx tailwindcss@3 -i ./ -o ./
+
+//1. npm instal tailwindcss @tailwindcss/vite
+//2. vite.config
+    // a. import tailwindcss "@tailwindcss/vite"
+    // b. plugins:[react(),tailwindcss()]
+//3. index.css-> @import "tailwindcss"
