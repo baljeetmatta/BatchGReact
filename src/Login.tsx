@@ -24,7 +24,7 @@ const Login=()=>{
     return (
         <>
         <div>
-            <div>{user.name} {user.email}</div>
+            <div>{user?.name} {user?.email}</div>
             {isLoggedIn?'Logged in ':'Logged out'}
             <button onClick={loginHandler}>Log in </button>
             <button onClick={logoutHandler}>Log out</button>

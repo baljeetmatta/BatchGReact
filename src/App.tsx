@@ -57,7 +57,9 @@ import Controls from './Controls';
 import Greet,{Test} from './Greet';
 import Greeting from './Greeting';
 import Login from './Login';
+import Parent from './Parent';
 import Types from './Types';
+import UI from './assets/UI';
 //import Types from './Types';
 import results from "./data.json";
 
@@ -108,7 +110,9 @@ function App()
     <>
     {/* <Controls/> */}
     {/* <Banner/> */}
-    <Login/>
+    {/* <Login/> */}
+    {/* <UI/> */}
+    <Parent/>
     </>
   )
 }
