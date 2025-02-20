@@ -55,6 +55,7 @@ import Controls from './Controls';
 // export default App
 
 import Greet,{Test} from './Greet';
+import GreetClass from './GreetClass';
 import Greeting from './Greeting';
 import Login from './Login';
 import Parent from './Parent';
@@ -112,7 +113,8 @@ function App()
     {/* <Banner/> */}
     {/* <Login/> */}
     {/* <UI/> */}
-    <Parent/>
+    {/* <Parent/> */}
+    <GreetClass name="Code"/>
     </>
   )
 }
