@@ -2,6 +2,7 @@
 //import './App.css'
 import Banner from './Banner';
 import Button from './Button';
+import CTimer from './CTimer';
 import Controls from './Controls';
 // import namesList from './data.json';
 
@@ -59,6 +60,7 @@ import GreetClass from './GreetClass';
 import Greeting from './Greeting';
 import Login from './Login';
 import Parent from './Parent';
+import Timer from './Timer';
 import Types from './Types';
 import UI from './assets/UI';
 //import Types from './Types';
@@ -114,7 +116,10 @@ function App()
     {/* <Login/> */}
     {/* <UI/> */}
     {/* <Parent/> */}
-    <GreetClass name="Code"/>
+    {/* <GreetClass name="Code"/> */}
+    {/* <Timer/> */}
+    <CTimer/>
+    
     </>
   )
 }
