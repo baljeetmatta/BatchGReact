@@ -7,16 +7,16 @@ const Timer=()=>{
 
     useEffect(()=>{
        let id= setInterval(timerTick,1000);
-       console.log(id);
+       console.log('timer',id);
         //for each render
-        return ()=>clearInterval(id);
+        //return ()=>clearInterval(id);
 
-    },[count])//dependency -list of variables 
+    },[])//dependency -list of variables 
     const timerTick=()=>{
        // count++;
-       setCount(count+1);
+       setCount((prev)=>prev+1);
 
-      ///  console.log(count);
+       console.log(count);
 
     }
    //let id= setInterval(timerTick,1000);
