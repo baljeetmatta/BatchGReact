@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "First Job",
+        "description": "First Job Description",
+        "package": "12L-15L"
+    },
+    {
+        "id": 2,
+        "title": "Software Engineer",
+        "description": "Developing software solutions",
+        "package": "15L-18L"
+    },
+    {
+        "id": 3,
+        "title": "Data Analyst",
+        "description": "Analyzing data for insights",
+        "package": "8L-10L"
+    },
+    {
+        "id": 4,
+        "title": "Project Manager",
+        "description": "Managing project timelines and teams",
+        "package": "20L-25L"
+    },
+    {
+        "id": 5,
+        "title": "Product Designer",
+        "description": "Designing user-friendly products",
+        "package": "14L-18L"
+    },
+    {
+        "id": 6,
+        "title": "Marketing Manager",
+        "description": "Planning and executing marketing strategies",
+        "package": "10L-12L"
+    },
+    {
+        "id": 7,
+        "title": "Business Analyst",
+        "description": "Providing business solutions through analysis",
+        "package": "12L-16L"
+    },
+    {
+        "id": 8,
+        "title": "HR Manager",
+        "description": "Managing human resources and recruitment",
+        "package": "13L-17L"
+    },
+    {
+        "id": 9,
+        "title": "UX/UI Designer",
+        "description": "Creating seamless user experiences and interfaces",
+        "package": "11L-14L"
+    },
+    {
+        "id": 10,
+        "title": "DevOps Engineer",
+        "description": "Managing infrastructure and deployment processes",
+        "package": "18L-22L"
+    }
+]
