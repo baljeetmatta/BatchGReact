@@ -10,9 +10,6 @@ const JobDetails=()=>{
                 <div>{data.title}</div>
                 <div>{data.description}</div>
                 <div>{data.package}</div>
-                
-              
-
             </div>
         </div>
         
