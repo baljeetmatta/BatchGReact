@@ -4,7 +4,16 @@
 // // import Jobs, { fetchJobs } from "./components/Jobs";
 // // import JobDetails, { fetchJobDetails } from "./components/JobDetails";
 
-import Posts from "./Posts";
+import { Link, Route, Routes } from "react-router-dom";
+import BugApp from "./BugApp";
+import { NavLink } from "react-router-dom";
+import Home from "./components/Home";
+//import ChatApp from "./ChatApp";
+
+import Contact from "./components/Contact";
+import { lazy } from "react";
+const ChatApp=lazy(()=>import("./ChatApp"))
+//import Posts from "./Posts";
 
 // import { NavLink, Route, Routes } from "react-router-dom";
 // import UserDashboard from "./components/UserDashboard";
@@ -250,7 +259,18 @@ import Posts from "./Posts";
 function App(){
   return (
     <>
-    <Posts/>
+    <ul className="flex gap-4">
+    <li><NavLink to="/">Home</NavLink></li>
+    <li><NavLink to="/chats">Chats</NavLink></li>
+    <li><NavLink to="/contact">Contact</NavLink></li>
+    </ul>
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/chats" element={<ChatApp/>}/>
+      <Route path="/contact" element={<Contact/>}/>
+
+
+    </Routes>
     </>
   )
 }
